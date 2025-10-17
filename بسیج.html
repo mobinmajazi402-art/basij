@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>آموزش سایت دانشگاه ارومیه</title>
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --accent: #0b3b61;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --radius: 12px;
+      font-family: "Vazirmatn", Tahoma, sans-serif;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 900px;
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+      padding: 24px;
+    }
+    header {
+      border-bottom: 2px solid #e5e7eb;
+      margin-bottom: 24px;
+      padding-bottom: 10px;
+    }
+    h1 {
+      margin: 0;
+      color: var(--accent);
+      font-size: 22px;
+    }
+    .video {
+      margin-bottom: 28px;
+    }
+    .video-frame {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* نسبت 16:9 */
+      height: 0;
+      overflow: hidden;
+      border-radius: var(--radius);
+      margin-bottom: 10px;
+    }
+    .video-frame iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    h3 {
+      color: var(--accent);
+      font-size: 18px;
+    }
+    p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      text-align: center;
+      padding: 10px 16px;
+      border-radius: var(--radius);
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn-ig {
+      background: #fff;
+      color: var(--accent);
+      border: 2px solid var(--accent);
+    }
+    .btn-ig:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-tg {
+      background: var(--accent);
+      color: #fff;
+      border: 2px solid var(--accent);
+    }
+    .btn-tg:hover {
+      background: #062940;
+    }
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>بسیج دانشجویی دانشگاه ارومیه</h1>
+      <p>نمایش ویدیوهای اموزشی و ارتباطی رسمی</p>
+    </header>
+
+    <section class="video">
+      <h3>آموزش هم اوا</h3>
+      <div class="video-frame">
+        <iframe src="https://www.aparat.com/video/video/embed/videohash/iab10tj/vt/frame" allowfullscreen></iframe>
+      </div>
+      <p>توضیح درباره نحوه ورود به سایت آموزشی و کار با آن</p>
+    </section>
+
+    <section class="video">
+      <h3>آموزش اتوماسیون تغدیه</h3>
+      <div class="video-frame">
+        <iframe src="https://www.aparat.com/video/video/embed/videohash/qae2942/vt/frame" allowfullscreen></iframe>
+      </div>
+      <p>توضیح درباره نحوه رزور غذا و مشاهده خوابگاه</p>
+    </section>
+
+    <div class="links">
+      <a class="btn btn-ig" href="https://www.instagram.com/basij_uu?igsh=MXRieWczdTZib3B0Mg==" target="_blank">صفحه اینستاگرام بسیج</a>
+      <a class="btn btn-tg" href="https://t.me/urumia_uni" target="_blank">کانال تلگرام دانشگاه</a>
+    </div>
+
+    <footer>
+      <p>تمامی حقوق برای مجموعه محفوظ است.</p>
+    </footer>
+  </div>
+</body>
+</html>
+
